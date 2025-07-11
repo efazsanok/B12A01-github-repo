@@ -12,7 +12,7 @@
   font-style: normal;
 }
 
-/* shared style */
+/* Shared Section */
 
 .primary-bg{
     background-color: #F5F8FF;
@@ -33,7 +33,7 @@
 }
 
 
-/* header */
+/* Header Section */
 
 .header {
     background-image: url('../images/Hero-bg.png');
@@ -42,7 +42,7 @@
     background-size: cover;
 }
 
-/* Nav styles */
+/* Nav Section */
 
 nav {
     display: flex;
@@ -57,7 +57,7 @@ nav {
     font-size: 35px;
 }
 
-/* banner style */
+/* Banner Section */
 
 .banner{
     height: 370px;
@@ -77,9 +77,9 @@ nav {
     max-width: 400px;
 }
 
-/* main styles */
+/* Main Section */
 
-/* About styles */
+/* Action Section */
 
 .action{
     display: flex;
@@ -108,8 +108,43 @@ nav {
 
 /* Productive Users Section */
 
+.users{
+    text-align: center;
+    padding: 200px;
+}
+
+.users-box{
+    justify-content: space-evenly;
+    background-color: rgba(78, 71, 255, 0.1);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 150px;
+}
+
+.users-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+}
+.users-description{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.users-description-title{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.users-description-subtitle{
+    color: rgba(37, 36, 50, 0.5);
+    font-size: 20px;
+    font-weight: 300;
+}
+
 /* Let’s Get In Touch Section */
 
-/* footer styles */
+/* Footer Section */
 
 /* Users’ Feedback Section */
