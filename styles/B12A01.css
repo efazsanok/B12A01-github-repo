@@ -174,4 +174,27 @@ nav {
 }
 /* Footer Section */
 
-/* Users’ Feedback Section */
+footer{
+    text-align: center;
+}
+
+.footer-title{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: 800;
+}
+
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+footer a{
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
+}
+.footer-tags{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
