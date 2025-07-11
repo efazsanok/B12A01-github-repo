@@ -14,6 +14,10 @@
 
 /* shared style */
 
+.primary-bg{
+    background-color: #F5F8FF;
+}
+
 .text-primary {
     color: #252432;
 }
@@ -68,9 +72,39 @@ nav {
     font-weight: 800;
 }
 
+.banner-profile-pic{
+    border-radius: 48px;
+    max-width: 400px;
+}
+
 /* main styles */
 
 /* About styles */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.action-container{
+    text-align: left;
+    padding: 10px 50px;
+    justify-content: space-between;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.action-description{
+    color: rgba(37, 36, 50, 0.5);
+    max-width: 500px;
+    font-size: 24px;
+    font-weight: 300;
+}
 
 /* Productive Users Section */
 
