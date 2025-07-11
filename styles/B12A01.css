@@ -144,7 +144,34 @@ nav {
 }
 
 /* Let’s Get In Touch Section */
+.form{
+    justify-content: space-evenly;
+    padding: 130px 230px;
+    display: flex;
+    gap: 10px;
+    margin: 0, 150px;
+}
+.form-title{
+    max-width: 600px;
+    font-size: 97px;
+    font-weight: 800;
+}
 
+.form input[type="submit"]{
+    padding: 12px 300px;
+}
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    color: #757575;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
 /* Footer Section */
 
 /* Users’ Feedback Section */
