@@ -1,0 +1,81 @@
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* shared style */
+
+.text-primary {
+    color: #252432;
+}
+
+.btn-primary {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding: 12px 36px;
+    border-radius: 10px;
+    background-color: #4E47FF;
+    border: none;
+}
+
+
+/* header */
+
+.header {
+    background-image: url('../images/Hero-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Nav styles */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #4E47FF;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+/* banner style */
+
+.banner{
+    height: 370px;
+    text-align: center;
+    gap: 37px;
+    padding: 300px 500px 152px;
+}
+
+
+.banner-greetings {
+    font-size: 65px;
+    font-weight: 800;
+}
+
+/* main styles */
+
+/* About styles */
+
+/* Productive Users Section */
+
+/* Let’s Get In Touch Section */
+
+/* footer styles */
+
+/* Users’ Feedback Section */
